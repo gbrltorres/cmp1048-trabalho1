@@ -99,7 +99,7 @@ void menu(){
                 exercise_6_2d();
                 break;
             case 0:
-                printf("Finalizando o programa\n");
+                printf("Finalizando o programa...\n");
                 usleep(1500000);
                 charge_bar(5);
                 exit_screen();

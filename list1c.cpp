@@ -6,7 +6,6 @@ void exercise_3_1c(){
     cin.ignore();
     getline(cin,s);
     s.erase(remove(s.begin(), s.end(), ' '), s.end());
-    cout << s << endl;
     if (is_palindromum(s)) {
         printf("A frase é palíndroma\n");
     } else {

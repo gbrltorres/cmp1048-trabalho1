@@ -3,6 +3,7 @@
 
 void menu_screen(){
     printf(" _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n"
+           "|                                                                                                      |\n"
            "|                                               FUNÇÕES                                                |\n"
            "|                                                                                                      |\n"
            "|                       [01]  Lista 1A Questao 5        [11]  Lista 2A Questao 1                       |\n"
