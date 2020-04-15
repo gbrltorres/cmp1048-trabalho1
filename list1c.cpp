@@ -40,7 +40,7 @@ void exercise_7_1c(){
     int t;
     scanf("%d", &t);
     printf("Digite um caractere para representar a borda da caixa: ");
-    int c;
+    char c;
     scanf(" %c",&c);
     box_with_centralized_text(s, t, c);
 }
