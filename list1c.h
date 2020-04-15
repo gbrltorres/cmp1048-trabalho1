@@ -2,6 +2,7 @@
 #define LIST1C_H
 
 #include <iostream>
+#include <algorithm>
 #include <util1c.h>
 using namespace std;
 
