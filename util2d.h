@@ -12,6 +12,8 @@ int** create_matrix(int l, int c);
 
 void print_matrix(int** mat, int l, int c);
 
+void deallocate_matrix(int** m, int l);
+
 int** sum_matrix(int** m1, int** m2, int l, int c);
 
 #endif // LIB2D_H

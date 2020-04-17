@@ -22,6 +22,13 @@ int** create_matrix(int l, int c){
     return pmat;
 }
 
+void deallocate_matrix(int** m, int l){
+    for(int i=0; i<l; i++){
+        delete[] m[i];
+    }
+    delete[] m;
+}
+
 void print_matrix(int** mat, int l, int c){
     for (int i=0; i<l; i++) {
         for (int j=0; j<c; j++) {
