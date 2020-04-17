@@ -57,8 +57,8 @@ void exercise_6_2b(){
     cin.ignore();
     cout << "Digite o segundo número: ";
     cin >> s2;
-    cout << s1 << " + " << s2 << " = ";
+    printf("s1 + s2 = ");
     char* soma = sum_of_giant_numbers(&s1[0], &s2[0]);
-    cout << soma << endl;
+    printf("%s\n", soma);
     delete[] soma;
 }

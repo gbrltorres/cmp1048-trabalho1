@@ -12,4 +12,5 @@ void exercise_4_2c(){
     get_indexes(p, i, I);
     printf("Menor número = %d\n", i);
     printf("Maior número = %d\n", I);
+    delete[] p;
 }
