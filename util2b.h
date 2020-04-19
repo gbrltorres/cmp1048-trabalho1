@@ -11,9 +11,9 @@ int str_to_int(char* s, int q);
 
 string remove_whitespaces(char* s1);
 
-int count_words(string* list);
+int count_words(string s, char c);
 
-string* split(string s, char c);
+string* split(string s, char c, int & q);
 
 int index_of(char* s1, char* s2);
 

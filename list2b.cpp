@@ -27,8 +27,8 @@ void exercise_4_2b(){
     char c;
     cout << "Caractere: ";
     cin >> c;
-    string* lista = split(s, c);
-    int size = count_words(lista);
+    int size;
+    string* lista = split(s, c, size);
     cout << "String original: " << s << endl;
     cout << "Palavras separadas: " << endl;
     for (int i=0; i<size ; i++) {

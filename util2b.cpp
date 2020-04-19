@@ -36,17 +36,21 @@ string remove_whitespaces(char* s1){
     return s2;
 }
 
-int count_words(string* list){
-    int count = 0;
-    while (list[count]!="\0") {
-        count++;
+int count_words(string s, char c){
+    int qty = 0;
+    for(int i=0; s[i]!='\0'; i++) {
+        if(s[i]==c)
+            qty++;
     }
-    return count;
+    return qty;
 }
 
 //questao 4
-string* split(string s, char c){
-    string* list = new string[10];
+string* split(string s, char c, int & q){
+    int qty = count_words(s, c);
+    qty++;
+    q = qty;
+    string* list = new string[qty];
     string aux = "";
     int j = 0;
     for (int i=0; s[i]!='\0'; i++) {
